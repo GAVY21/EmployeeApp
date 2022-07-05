@@ -30,7 +30,7 @@ namespace EmployeesApp.Tests.Controller
         public void Index_ActionExecutes_ReturnsExactNumberOfEmployees()
         {
             _mockRepo.Setup(repo => repo.GetAll())
-                .Returns(new List<Employee>() { new Employee(), new Employee() });
+                .Returns(new List<Employee>() { new Employee(), new Employee(), new Employee() });
 
             var result = _controller.Index();
 
