@@ -1,9 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+
+	  <PackageId>EmployeeApp</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>GAVIN</Authors>
+	  <Company>GAVIN Solutions</Company>
+	  <IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
